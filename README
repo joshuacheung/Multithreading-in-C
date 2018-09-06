@@ -1,0 +1,17 @@
+//readme
+Author: Joshua Cheung
+Lab 4
+6/09/17
+
+The program uses multithreading of n amount of threads to increment
+an integer 1000 times.
+
+Race Condition: A race condition happens when threads are processed
+without waiting for previous threads to finish. An example of this
+happening would be when a variable is incremented incorrectly because
+the threads had incremented the variable before letting a previous thread
+increment it, resulting in a number different than what the person wants.
+
+Mutex: A mutex prevents race conditions from happening by only letting one
+thread be allowed to process the code at a time. This happens by
+typing what you want to happen in between the mutex's.
